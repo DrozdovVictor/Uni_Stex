@@ -1,0 +1,30 @@
+@media (max-width: 375px) {
+  /* Opportunities Section */
+  .opportunities__heading {
+    font-size: 18px;
+  }
+
+  .opportunities-row-item {
+    font-size: 13px;
+  }
+
+  /* Adjustable Exchange */
+
+  .adjustable-exchange .container {
+    row-gap: 30px;
+  }
+
+  .adjustable-exchange__heading {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .adjustable-exchange__li {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .adjustable-exchange__button {
+    margin-top: 40px;
+  }
+}

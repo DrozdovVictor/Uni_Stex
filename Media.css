@@ -1,0 +1,567 @@
+@media (max-width: 550px) {
+  /* Header */
+  .login-mobile-img {
+    display: block;
+  }
+
+  .nav-content-reg-block {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  /* Header */
+  .nav-content {
+    column-gap: 15px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1250px) {
+  button {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  h1 {
+    font-size: 65px;
+    line-height: 75px;
+  }
+
+  h3 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  h4 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .container {
+    padding: 0px 30px;
+  }
+
+  /* Header */
+  header .container {
+    row-gap: 300px;
+  }
+
+  .header-logo-img {
+    width: 150px;
+    height: 30px;
+  }
+
+  .header-content {
+    flex-direction: column-reverse;
+    position: relative;
+  }
+
+  .header-content:before {
+    font-size: 500px;
+    line-height: 400px;
+    top: -75px;
+    left: 20%;
+  }
+
+  .header-heading {
+    flex-direction: column;
+  }
+
+  .header-heading__p {
+    font-size: 200px;
+    line-height: 245px;
+  }
+
+  .header-heading-content {
+    row-gap: 50px;
+  }
+
+  .header-heading-content__button {
+    width: 100%;
+  }
+
+  .header-mobile-img {
+    position: absolute;
+    top: -300px;
+  }
+
+  /* efiu Section */
+  .efiu {
+    margin-top: 80px;
+    padding-top: 90px;
+    overflow: hidden;
+  }
+
+  .efiu .container {
+    flex-direction: column-reverse;
+  }
+
+  .efiu__text {
+    max-width: 345px;
+  }
+
+  .efiu-section-img {
+    position: static;
+    margin-left: -30px;
+  }
+
+  /* Products Section */
+  .products .container {
+    row-gap: 75px;
+  }
+
+  .products-content {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  /* Opportunities Section */
+  .opportunities {
+    margin-top: 145px;
+    padding: 0px 30px;
+    overflow: hidden;
+  }
+
+  .opportunities .container {
+    padding: 45px 40px;
+    row-gap: 30px;
+  }
+
+  .opportunities-logo-img {
+    width: 230px;
+    height: 45px;
+  }
+
+  .opportunities__heading {
+    margin: 0px;
+  }
+
+  .opportunities-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .opportunities-row-item {
+    border-right: none;
+    padding-right: 0px;
+  }
+
+  .opportunities-row__line {
+    display: inline;
+    width: 125px;
+    height: 1px;
+    background-color: #fff;
+    margin: 20px 0px;
+  }
+
+  .opportunities-background-img {
+    bottom: -50px;
+  }
+
+  /* Exchange Section */
+  .exchange .container {
+    padding: 75px 30px 0px;
+    border: none;
+    padding: 0px 30px;
+  }
+
+  .exchange-content {
+    border-top: 1px solid var(--main-color);
+    padding-top: 74px;
+    row-gap: 30px;
+  }
+
+  .exchange__heading {
+    font-size: 40px;
+    line-height: 46px;
+  }
+
+  .exchange__text {
+    font-size: 23px;
+    line-height: 26.5px;
+  }
+
+  .exchange__button {
+    margin-top: 15px;
+  }
+
+  /* Deposit Fee */
+  .depositFee {
+    display: none;
+  } 
+
+  /* Partners */
+  .partners-row-wrapper:before, .partners-row-wrapper:after {
+    display: none;
+  }
+  
+  .partners-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  .partners-row__item.partners-row__item_mobile {
+    display: block;
+  }  
+
+  /* Adjustable-exchange Section */
+  .adjustable-exchange {
+    padding: 100px 0px 150px;
+    background-color:rgba(25, 34, 39, 1);
+    overflow: hidden;
+  } 
+
+  .adjustable-exchange__heading {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  /* Trade AnyTime Section */
+  .trade-anytime {
+    margin-top: 50px;
+  }
+
+  .trade-anytime .container {
+    justify-content: center;
+  }
+
+  .trade-anytime-img, .trade-anytime__line {
+    display: none;
+  }
+
+  .trade-anytime-content {
+    text-align: center;
+    align-items: center;
+  }
+
+  .trade-anytime-button {
+    margin-top: 50px;
+  }
+
+  /* Affiliate Program Section */
+  .affiliate-program {
+    padding: 120px 0px 200px; 
+    background-image: url('Images/Affiliate program/Section-mobile-img.png');
+    background-position: right bottom;
+  }
+
+  .affiliate-program__text {
+    font-size: 20px;
+    line-height: 23.5px;
+  }
+
+  /* FAQ Section */
+  .faq-item__heading {
+    max-width: 90%;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .faq-item.active .faq-item__text {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  /* Footer */
+
+  footer .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .footer-ul {
+    width: 100%;
+  }
+
+  .footer-row {
+    order: 1;
+  }
+
+  .footer-heading-arrow {
+    display: block;
+  }
+
+  .footer__text {
+    display: none;
+  }
+
+  .footer-heading-block.active .footer__text {
+    display: block;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  h3 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  h4 {
+    font-size: 27px;
+    line-height: 30px;
+  }
+
+  button {
+    max-width: 250px;
+    height: 50px;
+  }
+
+  /* Header */
+  header {
+    overflow: hidden;
+  }
+
+  /* EFIU Section */
+  .efiu__text {
+    font-size: 20px;
+  }
+
+  /* Products Section */
+  .products {
+    margin-top: 75px;
+  }
+
+  .products .container {
+    row-gap: 45px;
+  }
+
+  .products-img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .products-item-heading {
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .products__li, .products-item-text {
+    font-size: 14px;
+  }
+
+  /* Opportunities Section */
+  .opportunities {
+    margin-top: 100px;
+  }
+
+  .opportunities-logo-img {
+    width: 175px;
+    height: 40px;
+  }
+
+  .opportunities-row-item {
+    font-size: 14px;
+  }
+
+  /* Exchange Section */
+  .exchange {
+    margin-top: 75px;
+  }
+
+  .exchange-content {
+    padding-top: 45px;
+  }
+
+  .exchange__heading {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .exchange__text {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  /* Partners */
+  .partners {
+    margin-top: 75px;
+  }
+
+  .partners .container {
+    row-gap: 45px;
+  }
+
+  .partners-row {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  /* Adjustable Exchange Section */
+  .adjustable-exchange {
+    margin-top: 100px;
+    padding: 75px 0px 100px;
+  }
+
+  .adjustable-exchange__heading {
+     font-size: 30px;
+     line-height: 35px;
+  }
+
+  .adjustable-exchange__li {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .adjustable-exchange__button {
+    margin-top: 30px;
+    width: 200px;
+  }
+
+  /* Trade AniTime Section */
+  .trade-anytime__heading {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .trade-anytime__text {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .trade-anytime-button {
+    margin-top: 30px;
+  }
+
+  /* Affiliate Program Section */
+  .affiliate-program {
+    padding: 70px 0px 150px;
+  }
+
+  .affiliate-program__heading {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .affiliate-program__text {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  /* FAQ Section */
+  .faq {
+    margin-top: 75px;
+  }
+
+  .faq__heading {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .faq-item__heading {
+    width: 70%;
+    font-size: 20px;
+    line-height: 23px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 1250px) {
+  /* EFIU Section */
+  .efiu__text {
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1250px) {
+  h1 {
+    font-size: 115px;
+    line-height: 100px;
+  }
+
+  /* Header */
+  .nav-content {
+    display: flex;
+  }
+
+  .header-heading {
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+
+  /* Products Section */
+  .products {
+    margin-top: 100px;
+  }
+
+  .products-content {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  /* Opportunities Section */
+  .opportunities {
+    overflow: hidden;
+  }
+
+  .opportunities-row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 35px 20px;
+    justify-content: space-evenly;
+  }
+
+  .opportunities-row__line {
+    display: none;
+  }
+
+  .opportunities-background-img {
+    bottom: -200px;
+  }
+
+  /* Exchange Section */
+  .exchange__text {
+   padding: 0px 35px;
+  }
+
+  /* Adjustable Exchange Section */
+
+  .adjustable-exchange {
+    margin-top: 120px;
+    padding: 100px 0px 70px;
+  }
+
+  .adjustable-exchange__button {
+    margin-top: 25px;
+  }
+
+  /* Affiliate Program */
+  .affiliate-program {
+    padding: 75px 0px 120px;
+  }
+
+  .affiliate-program__heading {
+    line-height: 50px;
+  }
+
+  /* FAQ Section */
+  .faq {
+    margin-top: 75px;
+  }
+}
+
+@media (min-width: 1250px) and (max-width: 1650px) {
+  .container {
+    padding: 0px 30px;
+  }
+
+  /* Opportunities Section */
+  .opportunities {
+    padding: 0px 30px;
+    overflow: hidden;
+  }
+
+  /* FAQ Section */
+  .faq {
+    margin-top: 100px;
+  }
+}
